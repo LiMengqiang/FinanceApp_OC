@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60B88DFDC32451BA8A40BF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF01C26557374617805E65EF /* main.m */; };
+		D9BBD83C80E04684A046C9B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CECCDD7D80F48D4B4B2DB53 /* AppDelegate.m */; };
+		F05E9427E310428994022285 /* FOContract.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CECC3CD3EA74E20881DC0C2 /* FOContract.m */; };
+		CCCFC48E88184C9A8B745859 /* FOQuoteService.m in Sources */ = {isa = PBXBuildFile; fileRef = 277CE50053DB4949BC904BBF /* FOQuoteService.m */; };
+		307AEFD5DDFC43F1A28A0C25 /* FOWatchlistStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BDED58D11454C8D74ACC8 /* FOWatchlistStore.m */; };
+		667E23A2D63941A492B2858B /* FOExchangeDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F6CA3DAA6C4F059279228F /* FOExchangeDataService.m */; };
+		44980C7357404BD1AF640FD0 /* FOTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A58892ABA05426C87D853E4 /* FOTabBarController.m */; };
+		8A5EE5BFD533463CA1C3D3C9 /* FOMarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE3A8B38394437DAD31B2E3 /* FOMarketViewController.m */; };
+		3EC90CE156594B35988B1599 /* FOWatchlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141871032A0F48DFA38ECE63 /* FOWatchlistViewController.m */; };
+		21AA54BD48F84A90B4000AE0 /* FOProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143EA33721A2475F8D9926DF /* FOProfileViewController.m */; };
+		FC7999CB5A5E45CD8B715D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323F614F64BA4022A09C6DC7 /* LaunchScreen.storyboard */; };
+		7415F0E31DB44D3B85E09466 /* FOQuoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 552BEE8DD0254156AE6DEE25 /* FOQuoteTableViewCell.m */; };
+		97ACF50A61C9446E99507962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC2DD6DD8144553895E0E0A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF01C26557374617805E65EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CECCDD7D80F48D4B4B2DB53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3A8D93E2DB941749E3EA395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B18BB475E114127B41A21C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323F614F64BA4022A09C6DC7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CECC3CD3EA74E20881DC0C2 /* FOContract.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOContract.m; sourceTree = "<group>"; };
+		DAF7FA9F202746D7A5B6582F /* FOContract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOContract.h; sourceTree = "<group>"; };
+		277CE50053DB4949BC904BBF /* FOQuoteService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOQuoteService.m; sourceTree = "<group>"; };
+		5FDCA81F8CA94480B428806F /* FOQuoteService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOQuoteService.h; sourceTree = "<group>"; };
+		088BDED58D11454C8D74ACC8 /* FOWatchlistStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOWatchlistStore.m; sourceTree = "<group>"; };
+		3B03E99FFA6840F5826BE1C6 /* FOWatchlistStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOWatchlistStore.h; sourceTree = "<group>"; };
+		F3F6CA3DAA6C4F059279228F /* FOExchangeDataService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOExchangeDataService.m; sourceTree = "<group>"; };
+		A30417F1B8B24E76B2C2820F /* FOExchangeDataService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOExchangeDataService.h; sourceTree = "<group>"; };
+		8A58892ABA05426C87D853E4 /* FOTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOTabBarController.m; sourceTree = "<group>"; };
+		089E520E67354E4EBE9E0A6B /* FOTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOTabBarController.h; sourceTree = "<group>"; };
+		1FE3A8B38394437DAD31B2E3 /* FOMarketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOMarketViewController.m; sourceTree = "<group>"; };
+		E83C89F6D6B64698A357E72F /* FOMarketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOMarketViewController.h; sourceTree = "<group>"; };
+		141871032A0F48DFA38ECE63 /* FOWatchlistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOWatchlistViewController.m; sourceTree = "<group>"; };
+		17E21FECBD914087857E2561 /* FOWatchlistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOWatchlistViewController.h; sourceTree = "<group>"; };
+		143EA33721A2475F8D9926DF /* FOProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOProfileViewController.m; sourceTree = "<group>"; };
+		2118004A81E44D188330FF2B /* FOProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOProfileViewController.h; sourceTree = "<group>"; };
+		E3BF4056183949C89E4D02B2 /* FuturesOptionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuturesOptionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		552BEE8DD0254156AE6DEE25 /* FOQuoteTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOQuoteTableViewCell.m; sourceTree = "<group>"; };
+		34199C3502B44C45A6DBCD49 /* FOQuoteTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOQuoteTableViewCell.h; sourceTree = "<group>"; };
+		0DC2DD6DD8144553895E0E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E37CBA9E09B49599AE58505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E21FECBD914087857E2562 = {
+			isa = PBXGroup;
+			children = (
+				2118004A81E44D188330FF2C /* FuturesOptionsApp */,
+				6250716E22154CDE8FAE0F6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6250716E22154CDE8FAE0F6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3BF4056183949C89E4D02B2 /* FuturesOptionsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2118004A81E44D188330FF2C /* FuturesOptionsApp */ = {
+			isa = PBXGroup;
+			children = (
+				FF01C26557374617805E65EF /* main.m */,
+				B3A8D93E2DB941749E3EA395 /* AppDelegate.h */,
+				4CECCDD7D80F48D4B4B2DB53 /* AppDelegate.m */,
+				5B18BB475E114127B41A21C6 /* Info.plist */,
+				323F614F64BA4022A09C6DC7 /* LaunchScreen.storyboard */,
+				0DC2DD6DD8144553895E0E0A /* Assets.xcassets */,
+				D31006022A4A41E09927AD75 /* Models */,
+				35D80D993C364E0B81F6C60D /* Services */,
+				3B4D06A735EC4F02AA81BBC4 /* Views */,
+				776BBFD584E94422AAB6FDD1 /* ViewControllers */,
+			);
+			path = FuturesOptionsApp;
+			sourceTree = "<group>";
+		};
+		D31006022A4A41E09927AD75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DAF7FA9F202746D7A5B6582F /* FOContract.h */,
+				5CECC3CD3EA74E20881DC0C2 /* FOContract.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		35D80D993C364E0B81F6C60D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5FDCA81F8CA94480B428806F /* FOQuoteService.h */,
+				277CE50053DB4949BC904BBF /* FOQuoteService.m */,
+				3B03E99FFA6840F5826BE1C6 /* FOWatchlistStore.h */,
+				088BDED58D11454C8D74ACC8 /* FOWatchlistStore.m */,
+				A30417F1B8B24E76B2C2820F /* FOExchangeDataService.h */,
+				F3F6CA3DAA6C4F059279228F /* FOExchangeDataService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		776BBFD584E94422AAB6FDD1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				089E520E67354E4EBE9E0A6B /* FOTabBarController.h */,
+				8A58892ABA05426C87D853E4 /* FOTabBarController.m */,
+				E83C89F6D6B64698A357E72F /* FOMarketViewController.h */,
+				1FE3A8B38394437DAD31B2E3 /* FOMarketViewController.m */,
+				17E21FECBD914087857E2561 /* FOWatchlistViewController.h */,
+				141871032A0F48DFA38ECE63 /* FOWatchlistViewController.m */,
+				2118004A81E44D188330FF2B /* FOProfileViewController.h */,
+				143EA33721A2475F8D9926DF /* FOProfileViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3B4D06A735EC4F02AA81BBC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34199C3502B44C45A6DBCD49 /* FOQuoteTableViewCell.h */,
+				552BEE8DD0254156AE6DEE25 /* FOQuoteTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		751AAF741D724681AFA93E29 /* FuturesOptionsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FDA821EF4145789E6545C0 /* Build configuration list for PBXNativeTarget "FuturesOptionsApp" */;
+			buildPhases = (
+				E50B9578E1DF45FB8A906D1B /* Sources */,
+				0E37CBA9E09B49599AE58505 /* Frameworks */,
+				AF061DBBF6A7432FAD690840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuturesOptionsApp;
+			productName = FuturesOptionsApp;
+			productReference = E3BF4056183949C89E4D02B2 /* FuturesOptionsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A1C40FB962D43CAA5C3F504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					751AAF741D724681AFA93E29 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = E4309DEA8249490BB372999F /* Build configuration list for PBXProject "FuturesOptionsApp" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = zh-Hans;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				zh-Hans,
+				en,
+				Base,
+			);
+			mainGroup = 17E21FECBD914087857E2562;
+			productRefGroup = 6250716E22154CDE8FAE0F6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				751AAF741D724681AFA93E29 /* FuturesOptionsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF061DBBF6A7432FAD690840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7999CB5A5E45CD8B715D55 /* LaunchScreen.storyboard in Resources */,
+				97ACF50A61C9446E99507962 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E50B9578E1DF45FB8A906D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60B88DFDC32451BA8A40BF8 /* main.m in Sources */,
+				D9BBD83C80E04684A046C9B3 /* AppDelegate.m in Sources */,
+				F05E9427E310428994022285 /* FOContract.m in Sources */,
+				CCCFC48E88184C9A8B745859 /* FOQuoteService.m in Sources */,
+				307AEFD5DDFC43F1A28A0C25 /* FOWatchlistStore.m in Sources */,
+				667E23A2D63941A492B2858B /* FOExchangeDataService.m in Sources */,
+				44980C7357404BD1AF640FD0 /* FOTabBarController.m in Sources */,
+				8A5EE5BFD533463CA1C3D3C9 /* FOMarketViewController.m in Sources */,
+				3EC90CE156594B35988B1599 /* FOWatchlistViewController.m in Sources */,
+				21AA54BD48F84A90B4000AE0 /* FOProfileViewController.m in Sources */,
+				7415F0E31DB44D3B85E09466 /* FOQuoteTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A79F47A6A5F41ADA7B1E72F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56E8BBECED2B4D529B8CA371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A1D9D6601BA4C23B26AABF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FuturesOptionsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.FuturesOptionsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06F86DF659E24E06AFE9555B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FuturesOptionsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.FuturesOptionsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4309DEA8249490BB372999F /* Build configuration list for PBXProject "FuturesOptionsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A79F47A6A5F41ADA7B1E72F /* Debug */,
+				56E8BBECED2B4D529B8CA371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FDA821EF4145789E6545C0 /* Build configuration list for PBXNativeTarget "FuturesOptionsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1D9D6601BA4C23B26AABF5 /* Debug */,
+				06F86DF659E24E06AFE9555B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A1C40FB962D43CAA5C3F504 /* Project object */;
+}
